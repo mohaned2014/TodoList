@@ -1,0 +1,111 @@
+body{
+    background-image: url("background.jpg");
+    font-family: Tahoma;
+    color: #444;
+    letter-spacing: 1px;
+    
+}
+.material-icons{
+    color:rgb(5, 148, 10);
+    /* padding-left: 1%; */
+}
+#wrapper{
+    padding: 3px;
+    text-align: center;
+}
+#page-banner{
+    font-size: 27px;
+    font-style: oblique;
+    color:white;
+    width: 100%;
+}
+#search-List input{
+    width: 40%;
+    /* max-width: 500px; */
+    margin:0 8px;
+    /* margin:20px auto; */
+
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 4px solid #ccc;
+    font-size: 16px;
+    color:#444
+}
+
+
+.fa-search{
+    color: #000000;
+}
+#task-list{
+    margin-left: 32%;
+    width: 38%;
+}
+#task-list li:hover{
+    border-color:#4CAF50;
+   
+}   
+#task-list li{
+    /* display: block; */
+    background-color:rgb(227, 253, 228) ;
+    padding: 20px;
+    text-align: left;
+    border-left : 5px solid #9361bf;
+    border-radius: 2px;
+    margin: 20px 10px;
+}
+#task-list ul{
+    /* display: block; */
+    padding: 0px;
+    /* margin: 0px; */
+    list-style-type: none;
+}
+#task-list .tittle{
+    /* margin: 5px; */
+    font-style:oblique;
+    color: #444;
+}
+#task-list .name{
+    font-size: 18px;
+    font-style: italic;
+    display: inline-block;
+    /* float: left; */
+}
+#add-task{
+    margin-left: 29%;
+    padding: 10px;
+    width: 100%;
+}
+#add-task input{
+    padding: 12px 20px;
+    width: 40%;
+    box-sizing: border-box;
+    border: 4px solid #ccc;
+    font-size: 16px;
+    margin-right: 5px;
+    color:#444;
+}
+#add-task button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.delete{
+    float: right;
+    background: #9361bf;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+.delete:hover,#add-task button:hover{
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    color: #4CAF50;
+    background-color: black;
+}
